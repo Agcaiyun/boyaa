@@ -1,0 +1,21 @@
+a{
+	text-decoration: none;
+	cursor:pointer;
+}
+
+.inner{
+	margin:0 auto;
+}
+
+.nomargin{
+	margin:0 !important;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+.clear-b{
+	clear: both;
+}
+

@@ -1,0 +1,639 @@
+body{
+    font-size: 14px;
+    font-family: "Arial","Microsoft Yahei","SimSun";
+}
+
+.header{
+    background-color: #191d3a;
+
+}
+
+.inner{
+    width: 1000px;
+    overflow: hidden;
+   
+}
+
+.header .inner .logo{
+    float: left;
+    overflow: hidden;
+    padding:10px 48px 13px 20px;
+}
+
+.header .inner h1{
+    width: 157px;
+    background:url(../images/logo.png) no-repeat;
+    text-indent: -999em;
+    overflow: hidden;
+
+
+}
+
+.header .inner h1 a{
+    height: 35px;
+    display: block;
+
+}
+
+.header .inner .nav{
+    float: left;
+}
+
+.header .inner .nav ul{
+    overflow: hidden;
+}
+
+.header .inner .nav ul li{
+    float: left;
+    width: 85px;
+    line-height: 58px;
+    border-left: 1px solid #252947;
+    text-align: center;
+}
+
+.header .inner .nav ul li.current{
+    background-color: #252947;
+}
+
+.header .inner .nav ul li.current a{
+    color: #e2e4ed;
+}
+
+
+.header .inner .nav ul li.border-r{
+   border-right: 1px solid #252947;
+}
+
+.header .inner .nav ul li a{
+     color: #818496;
+}
+
+.header .inner .nav ul li a:hover{
+    color: #e2e4ed;
+}
+
+.header .inner .join-us{
+    float: left;
+    width: 100px;
+    line-height: 32px;
+    text-align: center;
+    padding:12px 9px;
+}
+
+.header .inner .join-us a{
+    display: block;
+    width: 98px;
+    height: 32px;
+    background-color: #38b774;
+    color:#fff;
+    border:1px solid #3aca7a;
+    border-radius:4px;
+}
+
+.header .inner .join-us a:hover{
+   background-color: #2ba364;
+}
+
+.header .inner .change-lang{
+    float: right;
+    width: 61px;
+    line-height: 14px;
+    padding:22px 0px 22px 79px;
+    overflow: hidden;
+}
+
+.header .inner .change-lang .current{
+    color: #38b774;
+}
+
+.header .inner .change-lang a{
+    color:#444866;
+}
+
+.header .inner .change-lang a:hover{
+    color:#38b774;
+}
+
+.header .inner .change-lang span{
+    float: left;
+}
+
+.header .inner .change-lang span.China{
+    margin-right: 14px;
+}
+
+.banner{
+    background:url(../images/banner.png) no-repeat;
+    background-color: #191d3a;
+    background-size:contain;
+/* 把背景图像拓展至最大尺寸，以使其宽度和高度完全适应其
+内容高度
+ */
+
+     padding:65px 173px 102px 713px;
+    
+}
+
+/*.banner .info .poker{
+    background-color: #ccc;
+}
+*/
+.banner .info .poker-tit{
+    height: 66px;
+    padding-left: 2px;
+    
+    position: relative;
+}
+
+.banner .info .poker-tit img{
+    float: left;
+    margin-right: 14px;
+}
+
+.banner .info .poker-tit h3{
+    float: left;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 44px;
+    padding-left:4px;
+    color: #fff;
+}
+
+.banner .info .poker-tit p{
+    float: left;
+    width: 250px;
+    font-size: 12px;
+    line-height: 22px;
+    color: #fff;
+}
+
+.banner .info .poker-tit dl.online{
+    width: 115px;
+    margin-top: 2px;
+    position: absolute;
+    top:7px;
+    right: 3px;
+}
+
+.banner .info .poker-tit .online dt{
+    font-size: 14px;
+    line-height: 37px;
+    background:url(../images/online.png) no-repeat 0 0;
+    padding-left: 17px;
+}
+
+.banner .info .poker-tit .online dt:hover{
+    background:url(../images/online.png) no-repeat -120px 0;
+}
+
+.banner .info .poker-tit .online dd{
+    display: none; 
+    overflow: hidden;
+    padding: 2px 0 8px 13px;
+    background-color: #fff;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+ 
+}
+
+/*.banner .info .poker-tit .online dd:hover{
+    display: block;
+}
+*/
+
+.banner .info .poker-tit .online dd a{
+    float: left;
+    margin-right: 8px;
+    margin-bottom: 4px;
+    width: 24px;
+    height: 24px;
+    background: url(../images/online.png) no-repeat 0 -47px;
+}
+
+.banner .info .poker-tit .online dd a.pt2{
+    background-position: -25px -47px;
+}
+
+.banner .info .poker-tit .online dd a.pt3{
+    background-position: -50px -47px;
+}
+
+.banner .info .poker-tit .online dd a.pt4{
+    background-position: -75px -47px;
+}
+
+.banner .info .poker-tit .online dd a.pt5{
+    background-position: -100px -47px;
+}
+
+.banner .info .poker-info{
+    padding-top: 18px;
+    padding-right: 25px;
+}
+
+.banner .info .poker-info p.text{
+    line-height: 30px;
+    vertical-align: center;
+    color: #fff;
+}
+
+.banner .info dl.download {
+    overflow: hidden;
+ /*   background-color: #000;*/
+}
+
+.banner .info dl.download dt.text{
+    font-size: 18px;
+    line-height: 36px;
+    padding-left: 30px;
+    padding-bottom: 7px;
+    font-weight: bold;
+    color: #fbc660;
+    background: url(../images/download.png) no-repeat 5px -30px;
+
+}
+
+.banner .info dl.download dd{
+/*    background-color: pink;*/
+
+
+
+    overflow: hidden;
+}
+
+.banner .info dl.download dd a{
+    float: left;
+    display: block;
+    width: 83px;
+    margin-right: 1px;
+    background: url(../images/pad.png) 0 0 no-repeat;
+    background-color:rgba(255,255,255,.2);
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 73px;
+    padding-bottom: 19px;
+    text-align: center;
+
+/*    background-color: #333;
+*/
+
+   
+
+}
+
+.banner .info dl.download dd a.iPad{
+    background-position: -210px -182px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.banner .info dl.download dd a.iPhone{
+    background-position: -218px 18px;
+}
+
+.banner .info dl.download dd a.Andriod{
+    background-position: -218px -82px;
+}
+
+.banner .info dl.download dd a.TV{
+    background-position: -214px -482px;
+}
+
+.banner .info dl.download dd .QR-code{
+    display: block;
+    float: left;
+    width: 111px;
+    height: 106px;
+    background: url(../images/QR-code.png) no-repeat 13px 15px;
+    background-color:rgba(255,255,255,.7);
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+  
+}
+
+.banner .info dl.download dd a:hover{
+    color:#000;
+    background: url(../images/pad.png) 0 0 no-repeat #e0dff3;
+}
+
+.banner .info dl.download dd a.iPad:hover{
+    background-position: 30px -182px; 
+}
+
+.banner .info dl.download dd a.iPhone:hover{
+    background-position: 27px 18px;
+}
+
+.banner .info dl.download dd a.Andriod:hover{
+    background-position: 23px -82px;
+}
+
+
+.banner .info dl.download dd a.TV:hover{
+    background-position: 22px -482px;
+}
+
+.banner .info .veil{
+    text-indent: -999em;
+}
+
+.product{
+    padding-top: 50px;
+    padding-bottom: 43px;
+    overflow: hidden;
+    border-bottom: 1px solid #dbe1e7;
+}
+
+.product ul li{
+    float: left;
+    margin-right: 43px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product ul li a{
+    display: block;
+    border:none;
+    transition: 0.5s;
+}
+
+.product ul li.last{
+    width: 217px;
+}
+
+/*解决 img 自带 margin 的问题*/
+.product ul li img{
+    display: block;
+}
+
+.product ul li h5{
+    font-weight: bold;
+    line-height: 30px;
+    color: #444866;
+    /*text-align: center;*/
+/*这里 text-align: center; 起作用是因为 h5 是 block，
+默认 width 撑满父级，所有除了文字内容外还有很多空间；
+但是因为给 父级 li 添加了 text-align:center; 的属性，
+因为继承，也就不需要再给 h5 单独设置 水平居中了
+*/
+}
+
+.product ul li span{
+    text-align: center;
+}
+
+.product ul li span.en{
+    display: inline-block;
+    font-size: 12px;
+    line-height: 28px;
+    color: #38b774;
+    padding-right: 11px;
+    background: url(../images/arrow.png) no-repeat  right center;
+
+/* text-align: center; 是让其内部文字进行居中，
+所以，如果直接设置给 span 是不起作用的
+（因为span 是 inline-block 他内部没有仅仅包裹着内容
+没有多余的空间）
+ */
+}
+
+.product ul li a:hover{
+    background-color:  #38b774;
+}
+
+.product ul li a:hover img{
+    background-color:  #fff;
+    opacity: 0.8;
+/* 这里我设置了  background-color:  #fff; 来重叠 a:hover 的 
+background-color:  #38b774; 想法是用 opacity: 0.8; 来让后面的
+白色背景透出来显得白一些，就像原网站的一样，但是好像没有其作用，
+不知道为什么
+ */
+ 
+}
+
+.product ul li a:hover h5{
+    color:#fff;
+
+}
+
+.product ul li a:hover span{
+    color:#fff;
+    background: url(../images/arrow_hover.png) no-repeat  right center;
+
+}
+
+.news_jobs{
+    padding-top: 53px;
+    background: url(../images/new_recruit_bg.jpg) no-repeat center bottom ;
+    height: 367px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei","SimSun";
+}
+
+.news_jobs .inner{
+    overflow:hidden;
+}
+
+.news_jobs .inner .news{
+    float: left;
+    position: relative; 
+    background: url(../images/news_bg.jpg) no-repeat 0 -10px;
+}
+
+.news_jobs .inner .news .news_title{
+    overflow: hidden;
+}
+
+.news_jobs .inner .news h3{
+    width: 500px;
+    height: 110px;
+    text-indent: -999em;
+}
+
+/*这里 more 和 sup 是 news  jobs 这两个块公用的部分，
+所以用  落空类 的方法，减少代码的冗余
+*/
+.news_jobs .inner  .more{
+    position: absolute;
+    width: 64px;
+    height: 26px;
+    border:1px solid #33b972;
+    border-radius: 5px;
+    top:40px;
+    left: 218px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 26px;
+    color: #30bd72;
+    transition: 0.2s;
+}
+
+.news_jobs .inner  .more sup{
+    position: relative;
+    top:-12px;
+    left: -2px;
+}
+
+.news_jobs .inner .news .more:hover{
+    color: #fff;
+    background-color: #33b972;
+}
+
+.news_jobs .inner .news .news_info ul{
+    padding: 0 20px;
+    background-color: #fff;
+    /*用背景颜色来弥补背景图片中ul部分的空缺*/
+}
+
+
+.news_jobs .inner .news .news_info ul li{
+    overflow: hidden;
+    line-height: 49px;
+    border-bottom: 1px solid #dbe1e7;
+}
+
+/*.news_jobs .inner .news .news_info ul li.first{
+    border:none;
+}
+*/
+.news_jobs .inner .news .news_info ul li a{
+    float: left;
+    color: #444866;
+}
+
+.news_jobs .inner .news .news_info ul li span{
+    font-size: 12px;
+    float: right;
+    color: #afc4dc;
+}
+
+.news_jobs .inner .news .news_info ul li a:hover{
+    color: #33b972;
+}
+
+.news_jobs .inner .jobs{
+    position: relative;
+    float: left;
+    width: 500px;
+    background: url(../images/jobs_bg.jpg) no-repeat;
+}
+
+.news_jobs .inner .jobs .jobs_title h3{
+    padding-top: 39px;
+    padding-left: 80px;
+    font-weight: bold;
+}
+
+.news_jobs .inner .jobs .jobs_title h3 span{
+    display: block;
+}
+
+.news_jobs .inner .jobs .jobs_title h3 span.China{
+    font-size: 28px;
+    line-height: 38px;
+    color:#fff;
+}
+
+.news_jobs .inner .jobs .jobs_title h3 span.en{
+    color:#fff;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.news_jobs .inner .jobs .jobs_title .more{
+    color:#fff;
+    border:1px solid #fff;
+    top:40px;
+    left: 218px;
+    transition: 0.2s;
+}
+
+.news_jobs .inner .jobs .jobs_title .more:hover{
+    background-color: #fff;
+    color:#30bd72;
+}
+.news_jobs .inner .jobs .jobs_info{
+    padding:21px 175px 28px 20px;
+}
+
+.news_jobs .inner .jobs .jobs_info h4{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#fff;
+}
+
+.news_jobs .inner .jobs .jobs_info ul li{
+    line-height: 37px;
+    border-bottom: 1px solid #6fdea3;
+}
+
+.news_jobs .inner .jobs .jobs_info ul li a{
+    color: #fff
+}
+
+footer{
+    background-color: #191d3a;
+    color: #6c6e7e;
+    font-size: 12px;
+    padding-bottom: 35px;
+    font-family: "Hiragino Sans GB","Microsoft Yahei","SimSun","Arial";
+}
+
+footer .inner .copyright{
+    line-height: 92px;
+
+}
+
+footer .inner .copyright a{
+    color: #6c6e7e;
+    transition: 0.2s;
+}
+
+footer .inner .copyright a:hover{
+    color: #fff;
+}
+
+footer .inner .copyright img{
+    width: 36px;
+    height: 50px;
+    vertical-align: middle;
+}
+
+footer .inner .links{
+    font-size: 12px;
+    line-height: 12px;
+}
+
+footer .inner .links a{
+    color: #6c6e7e; 
+    margin :4px;
+    transition: 0.2s;
+}
+
+footer .inner .links a:hover{
+    color: #fff;
+}
+
+.gotop{
+    display: block;
+    position: fixed;
+    right: 15px;
+    bottom: 75px;
+    width: 68px;
+    height: 29px;
+    background:url(../images/gotop.png) no-repeat 0 -40px;
+    transition: background-color 0.2s;
+}
+
+.gotop:hover{
+    background:url(../images/gotop.png) no-repeat 0 0;
+
+}
+
+
